@@ -1,0 +1,41 @@
+//? sass architecture sadkodev v0.0.1
+
+
+//* utils
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/functions';
+@import './utils/helpers';
+// etc...
+
+// vendors
+@import './vendors/materialDesign';
+@import './vendors/tailwincss';
+// etc...
+
+// base
+@import './base/reset';
+@import './base/typography';
+// etc...
+
+//* layout
+@import './layouts/header';
+@import './layouts/navegation';
+@import './layouts/grid';
+@import './layouts/sidebar';
+@import './layouts/forms';
+@import './layouts/fouter';
+// etc...
+
+//* components
+@import './components/buttons';
+@import './components/carousel';
+@import './components/cover';
+@import './components/dropdown';
+// etc...
+
+//* pages
+
+@import './pages/home';
+@import './pages/about';
+// etc...
