@@ -5,7 +5,7 @@ $clr-light: #ffffff;
 $clr-dark: #2F4858;
 
 //* status
-$colors-status:(
+$clr-status:(
     "success": #28a745,
     "help": #17a2b8,
     "warning": #ffc107,
@@ -13,13 +13,13 @@ $colors-status:(
 );
 
 //? pallet
-// ! If you want to optimize your UI, just use 3 colors in your color palette.
+// ! If you want to optimize your UI-UX, just used 3 colours in your palette colours.
 
 $clr-primary: #00754B;
 $clr-secundary: #394B41;
 $clr-third: #9CB0A4;
-// etc... max 6 colors in palette
-// colors shadow
+// etc... max 6 colours in palette
+// colours shadow
 
 $clr-shadow-low: rgba(0,0,0,0.1);
 $clr-shadow-mid: rgba(0,0,0,0.7);
